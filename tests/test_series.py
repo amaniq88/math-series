@@ -5,10 +5,12 @@ Fibonacci Series  : 0, 1, 1, 2, 3, 5, 8, 13, ...
 
 Lucas Numbers  : 2, 1, 3, 4, 7, 11, 18, 29, ...
 
+test_sum_series : ( if with the dafault ) 0, 1, 1, 2, 3, 5, 8, 13, ...  other wise based on user input value 
+
 
 """
 def test_Fib():
-    actual = FibRecursion(5)
+    actual = fibonacci(5)
     expected = 5
     assert actual == expected
 
