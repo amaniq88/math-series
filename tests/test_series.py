@@ -55,7 +55,7 @@ def test_Lucas4():
     expected = 29
     assert actual == expected
 
-def test_Lucas4():
+def test_Lucas5():
     actual = lucas(10)
     expected = 123
     assert actual == expected
@@ -83,7 +83,7 @@ def test_sum_series4():
     assert actual == expected
 
 
-def test_sum_series4():
+def test_sum_series5():
     actual = sum_series(8,2,3)
     expected = 89
     assert actual == expected
