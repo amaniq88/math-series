@@ -29,6 +29,11 @@ def test_Fib4():
     expected = 3
     assert actual == expected
 
+def test_Fib5():
+    actual = fibonacci(10)
+    expected = 55
+    assert actual == expected
+
 
 def test_Lucas1():
     actual = lucas(5)
@@ -48,6 +53,11 @@ def test_Lucas3():
 def test_Lucas4():
     actual = lucas(7)
     expected = 29
+    assert actual == expected
+
+def test_Lucas4():
+    actual = lucas(10)
+    expected = 123
     assert actual == expected
 
 def test_sum_series1():
@@ -70,6 +80,12 @@ def test_sum_series3():
 def test_sum_series4():
     actual = sum_series(6,2,2)
     expected = 26
+    assert actual == expected
+
+
+def test_sum_series4():
+    actual = sum_series(8,2,3)
+    expected = 89
     assert actual == expected
 
 
