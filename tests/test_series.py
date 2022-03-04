@@ -34,6 +34,11 @@ def test_Fib5():
     expected = 55
     assert actual == expected
 
+def test_Fib6():
+    actual = fibonacci(11)
+    expected = 89
+    assert actual == expected
+
 
 def test_Lucas1():
     actual = lucas(5)
